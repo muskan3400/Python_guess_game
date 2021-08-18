@@ -96,7 +96,7 @@ while (guesses>0):
       print("Enter a single character!!") 
       continue
 
-if (guesses==0):
+if (guesses==0 and fail!=0):
   print("\n")  
   print("You lost! ")
   print("There are no guesses left")
