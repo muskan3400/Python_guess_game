@@ -90,6 +90,7 @@ while (guesses>0):
        else:
          print("Oops! letter not found")
          guesses=guesses-1   
+         fail=fail+1
 
     else:
       print("\n")  
